@@ -1,12 +1,16 @@
-# React + Vite
+# Globomantics Housing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+Globomantics is a modern, component-based web application designed for browsing real estate listings. The project serves as a hands-on environment for mastering **React 18** fundamentals and building professional-grade user interfaces.
 
-Currently, two official plugins are available:
+## Key Objectives
+* **Component Architecture**: Breaking down a complex UI into small, maintainable, and reusable React components.
+* **State Management**: Managing application data, such as property lists and user-selected filters, using `useState`.
+* **Data Flow**: Mastering the flow of information through **Props** and **[React Context](https://pluralsight.com)** to avoid prop drilling.
+* **Side Effects**: Handling asynchronous data fetching from a JSON backend using the `useEffect` hook.
+* **Interactive UI**: Building a dynamic filtering system that allows users to search for properties by country.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+* **Library**: [React 18](https://react.dev) (Functional Components & Hooks)
+* **Styling**: Bootstrap/CSS for a clean, responsive real estate layout.
+* **Data**: JSON-based mock API to simulate real-world data fetching.
